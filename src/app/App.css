@@ -294,8 +294,20 @@ body {
 }
 
 .customize-img {
-
+    display: block;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 5px;
 }
+
+.customize-img:hover {
+    background-color:  #3B3D46;
+}
+
+.customize-img:active {
+    background-color:  #2A313C;
+}
+
 
 
 
