@@ -28,17 +28,17 @@ export const News = () => {
                             <h3 className="news-item-title orbitron-regular">NAVI reveals s1mple fifth anniversary</h3>
                         </article>
                         <article className="news-item">
-                            <img src="./public/news-img-3.png" alt="" className="news-item-img"/>
+                            <img src="./news-img-3.png" alt="" className="news-item-img"/>
                             <p className="news-item-date orbitron-regular">April 2, 2021</p>
                             <h3 className="news-item-title orbitron-regular">A1esports Shares new picture</h3>
                         </article>
                         <article className="news-item">
-                            <img src="./public/news-img-4.png" alt="" className="news-item-img"/>
+                            <img src="./news-img-4.png" alt="" className="news-item-img"/>
                             <p className="news-item-date orbitron-regular">April 2, 2021</p>
                             <h3 className="news-item-title orbitron-regular">T1 unveil partnership with Razers</h3>
                         </article>
                         <article className="news-item">
-                            <img src="./public/news-img-5.png" alt="" className="news-item-img"/>
+                            <img src="./news-img-5.png" alt="" className="news-item-img"/>
                             <p className="news-item-date orbitron-regular">April 2, 2021</p>
                             <h3 className="news-item-title orbitron-regular">RX secures content partnership with</h3>
                         </article>
