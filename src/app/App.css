@@ -345,3 +345,44 @@ body {
     line-height: 16px;
 }
 
+
+footer {
+    background-color: #222730;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    padding: 130px 60px;
+}
+
+.footer-colomn {
+
+}
+
+.footer-colomt-title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer-colomn-text {
+    font-size: 15px;
+    line-height: 25px;
+    color: #999999;
+}
+
+.footer-colomn-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.colomn-list-item {
+
+}
+
+.colomn-list-link {
+    font-size: 15px;
+    line-height: 37.5px;
+    color: #999999;
+    text-decoration: none;
+}
