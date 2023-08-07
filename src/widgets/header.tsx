@@ -1,3 +1,4 @@
+import { BurgerMenu } from "../shared/burgerMenu"
 import { Cart } from "../shared/cart"
 import { Logo } from "../shared/logo"
 
@@ -35,6 +36,7 @@ export const Header = () => {
                         </div>
                         <a href="!#" className="contact-us orbitron-regular">Contact Us</a>
                     </div>
+                    <div className="burger-menu"><BurgerMenu /></div>
                 </div>
             </header>
         </>
