@@ -14,7 +14,7 @@ body {
 }
 
 .start-screen {
-    background: linear-gradient(to right, #000000E0 56%, #57B8FF 44%);
+    background: linear-gradient(to right, #000000 56%, #57B8FF 44%);
 }
 
 
@@ -55,8 +55,12 @@ body {
     text-decoration: none;
 }
 
-.nav-list-link_active {
+.nav-list-link:hover {
     color: #FAC422;
+}
+
+.nav-list-link:active {
+    color: #FFFFFF;
 }
 
 .contacts {
@@ -93,6 +97,16 @@ body {
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.contact-us:hover {
+    color: #57B8FF;
+    background-color: #FFFFFF;
+}
+
+.contact-us:active {
+    color: #FFFFFF;
+    background-color: #57B8FF;
 }
 
 
@@ -141,6 +155,14 @@ body {
     color: #80858F;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.social-media-list_link:hover {
+    color: #d0d2d6;
+}
+
+.social-media-list_link:active {
+    color: #80858F;
 }
 
 
@@ -197,6 +219,20 @@ body {
 
 .content-button {
     padding: 21px 34px;
+    border: none;
+    margin: 0 2px 0 0;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.content-button:hover {
+    cursor: pointer;
+    background-color: #57B8FF;
+}
+
+.content-button:active {
+    cursor: auto;
+    background-color: black;
 }
 
 .content-button-txt {
