@@ -1,4 +1,5 @@
 import { ReactElement } from "react"
+import { FutureOfEsport } from "../../../shared/futureOfEsport"
 
 interface StartScreenProps {
     children: ReactElement
@@ -25,7 +26,7 @@ export const StartScreen = ({children}: StartScreenProps) => {
                         </ul>
                     </div>
                     <div className="start-screen_content">
-                        <p className="content-future orbitron-regular">FUTURE OF eSPORTS</p>
+                        <FutureOfEsport />
                         <h1 className="content-title orbitron-regular">Unleash the Next <span className="underline">Generation</span> of Gaming</h1>
                         <p className="content-text orbitron-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, nec donec in morbi pulvinar. Enim non pulvinar neque.</p>
                         <div className="content-buttons">

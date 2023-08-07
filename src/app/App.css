@@ -203,3 +203,55 @@ body {
     font-size: 18px;
     line-height: 28px;
 }
+
+
+
+
+
+
+
+
+
+
+.customize {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../../public/customize-bg-img.png');
+    background-repeat: no-repeat;
+    background-position: 60px 0;
+    background-color: #2A313C;
+}
+
+.customize-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 83px 60px 83px 0 ;
+}
+
+.customize-title {
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 63px;
+    line-height: 74px;
+}
+
+.customize-text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #DFDFDFCC;
+    padding: 38px 0 54px 0;
+}
+
+.customize-imgs {
+    display: flex;
+    
+}
+
+.customize-img-link {
+
+}
+
+.customize-img {
+
+}
