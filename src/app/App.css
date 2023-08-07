@@ -5,7 +5,7 @@
     src: url('../../public/fonts/Orbitron/static/Orbitron-Regular.ttf');
 }
 
-.orbitron-regular{
+.orbitron-regular {
     font-family: 'Orbitron';
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .start-screen {
-    background: linear-gradient(to right, #000000E0 60%, #57B8FF 40%);
+    background: linear-gradient(to right, #000000E0 56%, #57B8FF 44%);
 }
 
 
@@ -86,8 +86,120 @@ body {
 }
 
 .contact-us {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05rem;
     padding: 16px 31px;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.start-screen_info {
+    position: relative;
+    background-image: url(/amoCRM-2/public/content-img.png);
+    background-repeat: no-repeat;
+    background-position: 92% 52%;
+
+}
+
+.social-media {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 420px;
+    left: -118px;
+}
+
+.social-media-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media-list_item {
+    padding: 0 50px 0 0;
+}
+
+.social-media-list_item:last-child {
+    padding: 0;
+}
+
+.social-media-list_link {
+    font-size: 11px;
+    line-height: 25px;
+    color: #80858F;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.start-screen_content {
+    display: flex;
+    flex-direction: column;
+    max-width: 660px;
+    padding: 169px 60px;
+}
+
+.content-future {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 16px;
+    color: #57B8FF;
+    text-transform: uppercase;
+}
+ 
+.content-future::before {
+    content: url('../../public/fire.svg');
+    padding: 0 5px 0 0;
+} 
+
+.content-title {
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.039rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.underline {
+    position: relative;
+}
+
+.underline::before {
+    position: absolute;
+    content: url('../../public/underline.svg');
+    top: 28px;
+    left: 0;
+}
+
+.content-text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #999999;
+    padding: 26px 0 0 0;
+}
+
+.content-buttons {
+    padding: 32px 0 0 0;
+}
+
+.content-button {
+    padding: 21px 34px;
+}
+
+.content-button-txt {
+    font-size: 18px;
+    line-height: 28px;
 }
