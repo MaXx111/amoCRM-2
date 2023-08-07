@@ -560,14 +560,9 @@ footer {
         justify-content: center;
     }
 
-    .customize-content {
-
-    }
-
     .customize-imgs {
         flex-wrap: wrap;
     }
-
 }
 
 @media (max-width: 480px) {
@@ -595,6 +590,4 @@ footer {
     .footer-colomn:last-child {
         padding: 0;
     }
-    
-    
 }

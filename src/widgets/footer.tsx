@@ -1,6 +1,5 @@
 import { Logo } from "../shared/logo"
 
-
 export const Footer = () => {
 
     return(
