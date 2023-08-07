@@ -8,7 +8,7 @@ export const Customize = () => {
             <section className="customize">
                 <div className="customize-content">
                     <FutureOfEsport />
-                    <h2 className="customize-title orbitron-regular">Customize your Own Character</h2>
+                    <h2 className="customize-title orbitron-regular">Customize Your Own Character</h2>
                     <p className="customize-text orbitron-regular">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
                     <div className="customize-imgs">
                         <a href="!#" className="customize-img-link">
