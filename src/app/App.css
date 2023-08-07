@@ -1,1 +1,93 @@
+@font-face {
+    font-family: 'Orbitron';
+    font-size: normal;
+    font-weight: 400;
+    src: url('../../public/fonts/Orbitron/static/Orbitron-Regular.ttf');
+}
 
+.orbitron-regular{
+    font-family: 'Orbitron';
+}
+
+body {
+    margin: 0 auto;
+}
+
+.start-screen {
+    background: linear-gradient(to right, #000000E0 60%, #57B8FF 40%);
+}
+
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.heaeder-logo {
+
+}
+
+.nav {
+
+}
+
+.nav-list {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-list-item {
+    padding: 0 60px 0 0;
+}
+
+.nav-list-item:last-child {
+    padding: 0;
+}
+
+.nav-list-link {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-list-link_active {
+    color: #FAC422;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    position: relative;
+    padding: 0 40px 0 0;
+}
+
+.cart-link {
+
+}
+
+.cart-number {
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 100%;
+    top: -8px;
+    left: 32px;
+    background-color: white;
+}
+
+.contact-us {
+    padding: 16px 31px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-decoration: none;
+}
