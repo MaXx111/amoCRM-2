@@ -103,7 +103,7 @@ body {
 
 .start-screen_info {
     position: relative;
-    background-image: url(/amoCRM-2/public/content-img.png);
+    background-image: url('../../public/content-img.png');
     background-repeat: no-repeat;
     background-position: 92% 43%;
     padding: 0 0 81px 0;
